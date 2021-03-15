@@ -124,6 +124,11 @@
         /* Fin Titulo de las páginas*/
         /*Galeria animada */
         
+        .titulo-imagen p {
+            font-size: 20px;
+            font-family: evogria;
+        }
+        
         .contenedor-galeria {
             width: 800px;
             height: 320px;
