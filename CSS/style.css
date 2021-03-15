@@ -751,21 +751,31 @@
             padding: 50px 0 60px 0;
         }
         
+        .lideres-mercado{
+            text-align: center;
+        }
+
         .contenedor-sobre-nosotros {
-            display: flex;
+            
             justify-content: space-between;
+
         }
         
         .imagen-about-us {
-            margin-top: 20px;
-            width: 40%;
-            height: 280px;
+            float: left;
+            margin-top: 40px;
+            margin-left: 60px;
+            width: 45%;
+            height: 330px;
             text-shadow: rgb(194, 193, 193) 5px 2px 2px;
         }
         
-        .sobre-nosotros .contenido-textos {
+        .contenido-textos {
             color: black;
-            width: 48%;
+            width: 40%;
+            float: right;
+            margin-top: 40px;
+            margin-right: 60px;
         }
         
         .contenido-textos h3 {
@@ -776,12 +786,56 @@
         }
         
         .contenido-textos p {
-            padding: 0px 0px 30px 15px;
+            /* padding: 0px 0px 30px 15px; */
             font-weight: 300;
             text-align: justify;
             color: black;
             font-family: evogria;
         }
+        /* Responsive contenedor-sobre-nosotros */
+        @media screen and (max-width: 1024px){
+            .textos {
+                padding-left: 5%;
+                width: 100%;
+            }
+
+            .contenedor-sobre-nosotros {
+                align-items: center;
+                justify-content: center;
+            }
+
+            .imagen-about-us {
+                width: 86%;
+                float: center;
+                object-fit: cover;
+                /* margin-left: 90px; */
+
+            }
+
+            .contenido-textos {
+                float: left;
+                width: 40%;
+            }
+        }
+
+         @media screen and (max-width: 768px){
+            .imagen-about-us{
+                width: 100%;
+                margin: auto;
+            }
+
+            .textos {
+                padding-right: 2%;
+                padding-left: 4%;;
+            }
+
+            .contenido-textos{
+                width: 100%;
+            }
+         }
+
+        /* FIN Responsive contenedor-sobre-nosotros */
+
         /* fin sobre nosotros*/
         /* Clients */
         
