@@ -1680,3 +1680,30 @@
             margin-top: 40px;
         }
         /*FINAL BANNER HAZTE CLIENTE*/
+
+        /*Resposive tamano de la pagina*/
+        @media screen and (max-width: 850px) {
+            .titulo_menu {
+                font-size: 60px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .titulo_menu {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            .titulo_paginas {
+                font-size: 60px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .titulo_paginas {
+                font-size: 30px;
+            }
+        }
+
+        /*FIN tamano de la pagina*/
